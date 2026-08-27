@@ -1,7 +1,6 @@
 # EuLaNet
 
-### Lean Eulerian–Lagrangian Flow Representation
-### for ML / RL / Deep RL
+### Lean Eulerian–Lagrangian Flow Representation for ML / RL / Deep RL
 
 **Built by Sai Siddharth**
 
@@ -20,7 +19,7 @@ EuLaNet converts SU2 flow solutions into a structured Eulerian–Lagrangian repr
     EXPLICIT SAME-TIME SPATIAL CORRESPONDENCE
 ```
 
-Model-independent and designed for downstream ML, RL and Deep RL workflows. EuLaNet does not prescribe or contain a specific learner; it produces the physically structured dataset.
+Model-independent and designed for downstream ML, RL and Deep RL workflows. EuLaNet does not prescribe or contain a specific learner; it produces the physically structured dataset architecture for any NN based models.
 
 ---
 
