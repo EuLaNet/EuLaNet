@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EuLaNet"
+version = "0.1.0"
+description = "Lean Eulerian-Lagrangian Flow Representation for ML, RL & Deep RL"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="Sai Siddharth", email="siddharthaerospace@gmail.com"}]
+maintainers = [{name="Sai Siddharth", email="saisidd@mit.edu"}]
+keywords = ["CFD", "SU2", "Lagrangian", "FTLE", "Cauchy-Green", "Eulerian-Lagrangian"]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+    "pyvista>=0.38",
+    "vtk>=9.2",
+    "pandas>=1.5",
+    "tqdm",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.urls]
+Homepage = "https://github.com/saisidd/EuLaNet"
+Repository = "https://github.com/saisidd/EuLaNet"
+
+[project.scripts]
+eulanet = "eulanet.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
