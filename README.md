@@ -2,11 +2,6 @@
 
 ### Lean Eulerian–Lagrangian Flow Representation for ML / RL / Deep RL
 
-**Built by Sai Siddharth**
-
-Siddharthaerospace@gmail.com
-saisidd@mit.edu
-
 ---
 
 EuLaNet converts SU2 flow solutions into a structured Eulerian–Lagrangian representation containing:
@@ -83,7 +78,9 @@ Correspondence uses **same-time Eulerian snapshot + per-snapshot KDTree** (canon
 Built by Sai Siddharth.
 
 I would like to acknowledge the helpful comments, discussions, and suggestions from members of the MIT AeroAstro community, the Hypersonics Research Laboratory, and the American Physical Society community. I am grateful to these research communities for the intellectual exchange and open scientific discussions that contributed to the development of this work.
-
+**Built by Sai Siddharth**
+Correspond or Improve the arch? - feel free to email me anytime:)
+Siddharthaerospace@gmail.com | saisidd@mit.edu
 ---
 
 ## License
