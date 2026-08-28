@@ -1,4 +1,5 @@
 # EuLaNet — Eulerian–Lagrangian Flow Representation
+<img width="837" height="292" alt="Screenshot 2026-08-28 145751" src="https://github.com/user-attachments/assets/424bdd11-3bf8-4d08-9ddc-cf151e257a05" />
 
 [![Python](https://img.shields.io/badge/Python-3.x-3776AB)](https://www.python.org/)
 [![CFD](https://img.shields.io/badge/CFD-SU2-orange)](https://su2code.github.io/)
