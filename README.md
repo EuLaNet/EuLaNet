@@ -1,3 +1,6 @@
+
+
+
 # EuLaNet — Eulerian–Lagrangian Flow Representation
 <img width="837" height="292" alt="Screenshot 2026-08-28 145751" src="https://github.com/user-attachments/assets/424bdd11-3bf8-4d08-9ddc-cf151e257a05" />
 
@@ -10,7 +13,9 @@
 
 EuLaNet is a CFD-to-ML data toolbox that transforms conventional Eulerian CFD snapshots into a coupled Eulerian–Lagrangian representation. Given SU2(Openfoam release next month!) `.vtu` solutions $E(x,t)$, it retains the full flow state while integrating sparse material probes through the velocity field $\frac{dx_p}{dt}=u(x_p,t)$, producing finite-time trajectories and the associated flow map $x(t)=\Phi_t(x_0)$. From this evolution it computes the deformation gradient $F=\frac{\partial x(t)}{\partial x_0}$, the Cauchy–Green tensor $C=F^TF$, principal stretching $\lambda$, and FTLE.
 
-The key construction is the explicit **same-time correspondence** between the Lagrangian material state and the Eulerian field. For every snapshot $t$, Lagrangian positions $x_L(t)$ are associated with the Eulerian coordinates $X(t)$ using a per-snapshot KDTree, giving $x_L(t)\rightarrow X(t)$. The resulting dataset therefore couples instantaneous flow physics, material transport, deformation and spatial correspondence in a consistent representation. EuLaNet is model-independent and is intended to provide a more structured physical state for ML, RL and DeepRL applications, particularly where temporal evolution and flow control are important.
+The key construction is the explicit **same-time correspondence** between the Lagrangian material state and the Eulerian field. For every snapshot $t$, Lagrangian positions $x_L(t)$ are associated with the Eulerian coordinates $X(t)$ using a per-snapshot KDTree, giving $x_L(t)\rightarrow X(t)$. The resulting dataset therefore couples instantaneous flow physics, material transport, deformation and spatial correspondence in a consistent representation. EuLaNet is model-independent and is intended to provide a more structured physical state for ML, RL and DeepRL applications, particularly where temporal evolution and flow control are important. PS: Also support moving meshes and unsteady simulations. If you're training a large dataset and need a lean pipeline, contact me for the lean beta version. 
+
+<img width="1470" height="694" alt="demo-ezgif com-optimize" src="https://github.com/user-attachments/assets/5f800446-e342-4344-b45a-ddf231bfdf8d" />
 
 ## Installation
 
