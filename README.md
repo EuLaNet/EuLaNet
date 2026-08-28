@@ -20,6 +20,8 @@ The key construction is the explicit **same-time correspondence** between the La
 ## Installation
 
 ```bash
+git clone https://github.com/SiddDart/EuLaNet.git
+cd EuLaNet
 pip install -e .
 ```
 
