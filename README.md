@@ -73,7 +73,7 @@ python -m eulanet.cli build \
 | `--window` | Temporal window used for the material evolution |
 | `--output` | Output `.npz` dataset |
 
-> **Note:** No `.npz` input is required. EuLaNet works directly from the SU2 `.vtu` solutions.
+> **Note:** No `.npz` input is required. EuLaNet works directly from the SU2 `.vtu` solutions. Note: Openfoam will be compatible with EuLaNet soon,  for beta version email me.
 
 A paper describing the methodology and development of EuLaNet is currently being prepared.
 
